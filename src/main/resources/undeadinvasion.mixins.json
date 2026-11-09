@@ -1,0 +1,35 @@
+{
+  "required": true,
+  "package": "override_mirage.undeadinvasion.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "AbstractArrowAccessor",
+    "AbstractArrowCombatMixin",
+    "CrossbowItemMixin",
+    "DispenserCloudMixin",
+    "DispenserDragonFireballMixin",
+    "DispenserFireballMixin",
+    "DispenserPotionMixin",
+    "EntityAllianceMixin",
+    "EntityRainMixin",
+    "ItemStackHelmetDurabilityMixin",
+    "LivingEntityCombatMixin",
+    "MobAiStepMixin",
+    "MobHelmetDurabilityMixin",
+    "MobRangedFacingMixin",
+    "ProjectileAllyMixin",
+    "ProjectileDamageObservationMixin",
+    "RangedMobCombatMixin",
+    "SkeletonWeaponGoalMixin"
+  ],
+  "client": [
+    "client.AcidRainRendererMixin",
+    "client.AcidRainParticleMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
